@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPSIN | Elite Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <main class="app-container">
+
+        <div class="glass-card">
+            <header>
+                <p class="label">CURRENT SET</p>
+            </header>
+
+            <div class="counter-box">
+                <h2 id="count-el">0</h2>
+            </div>
+
+            <div class="button-group">
+                <button id="increment-btn" onclick="increment()">ADD REP</button>
+                <button id="save-btn" onclick="save()">SAVE SET</button>
+            </div>
+
+            <div class="history-box">
+                <p id="save-el">Reps In: </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
